@@ -1,0 +1,52 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "RAGNER",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Blog",
+      "url": "mailto:team@ragner.ai"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Website",
+    "url": "https://ragner.ai"
+  },
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "Introduction",
+        "The Problem",
+        "Core Philosophy",
+        "Team & Manifesto"
+      ]
+    },
+    {
+      "group": "The Agentic Economy",
+      "pages": [
+        "Capabilities",
+        "Use Cases",
+        "Step by Step Guides"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://x.com/mintlify",
+    "github": "https://github.com/chatxbt",
+    "discord": "https://linkedin.com/company/mintlify"
+  }
+}
