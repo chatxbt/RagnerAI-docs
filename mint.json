@@ -25,28 +25,40 @@
     "name": "Website",
     "url": "https://ragner.ai"
   },
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "A Short Story",
+      "url": "https://ragner.ai",
+      "icon": "sparkles",
+      "color": {
+        "from": "#FF6F61",
+        "to": "#FF3B3B"
+      }
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/youraccount",
+      "icon": "twitter",
+      "color": "#1DA1F2"
+    }
+  ],
   "navigation": [
     {
       "group": "Overview",
       "pages": [
         "Introduction",
-        "The Problem",
-        "Core Philosophy",
-        "Team & Manifesto"
-      ]
-    },
-    {
-      "group": "The Agentic Economy",
-      "pages": [
-        "Capabilities",
-        "Use Cases",
-        "Step by Step Guides"
+        "Problem"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/chatxbt",
-    "discord": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/ragner_ai",
+    "github": "https://github.com/chatxbt"
   }
 }
