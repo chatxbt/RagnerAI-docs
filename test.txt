@@ -1,0 +1,10 @@
+ {
+      "group": "Use Cases",
+      "pages": [
+        "Capabilities",
+        "Use Cases",
+        "Composable AI",
+        "Plans",
+        "Step by Step Guides"
+      ]
+    }

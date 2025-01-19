@@ -25,7 +25,12 @@
     "name": "Website",
     "url": "https://ragner.ai"
   },
- 
+  "tabs": [
+    {
+      "name": "API Reference",
+      "url": "api-reference"
+    }
+  ],
   "anchors": [
     {
       "name": "A Short Story",
@@ -48,7 +53,7 @@
       "group": "Overview",
       "pages": [
         "Introduction",
-        "Problem"
+        "Problem""Problem"
       ]
     }
   ],
