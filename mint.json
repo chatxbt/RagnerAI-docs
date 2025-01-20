@@ -18,7 +18,7 @@
   "topbarLinks": [
     {
       "name": "Blog",
-      "url": "mailto:team@ragner.ai"
+      "url": "https://blog.ragner.ai"
     }
   ],
   "topbarCtaButton": {
@@ -43,7 +43,7 @@
     },
     {
       "name": "Twitter",
-      "url": "https://twitter.com/youraccount",
+      "url": "https://twitter.com/ragner_ai",
       "icon": "twitter",
       "color": "#1DA1F2"
     }
@@ -52,8 +52,8 @@
     {
       "group": "Overview",
       "pages": [
-        "Introduction",
-        "Problem"
+        "introduction",
+        "problem"
       ]
     }
   ],
