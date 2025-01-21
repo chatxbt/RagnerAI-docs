@@ -50,8 +50,9 @@
   ],
   "navigation": [
     {
-      "group": "Overview",
+      "group": "Get Started",
       "pages": [
+        "overview",
         "introduction",
         "problem"
       ]
