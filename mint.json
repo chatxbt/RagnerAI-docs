@@ -42,6 +42,15 @@
       }
     },
     {
+      "name": "Our Manifesto",
+      "url": "https://chatxbt.com/manifesto",
+      "icon": "sparkles",
+      "color": {
+        "from": "#FF6F61",
+        "to": "#FF3B3B"
+      }
+    },
+    {
       "name": "Twitter",
       "url": "https://twitter.com/ragner_ai",
       "icon": "twitter",
@@ -54,7 +63,8 @@
       "pages": [
         "overview",
         "introduction",
-        "problem"
+        "problem",
+        "composable"
       ]
     }
   ],
