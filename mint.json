@@ -64,7 +64,14 @@
         "overview",
         "introduction",
         "problem",
-        "composable"
+        "composable",
+        "beyond-apis"
+      ]
+    },
+    {
+      "group": "Usecases",
+      "pages": [
+        "stepguide"
       ]
     }
   ],
