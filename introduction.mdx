@@ -1,6 +1,6 @@
 ---
 title: "Introduction"
-description: "Transform APIs into Autonomous AI Agents"
+description: "Transform APIs into AI Agents. The end of integration debt starts here."
 ---
 
 <img
@@ -36,17 +36,63 @@ These agents act as composable building blocks, capable of executing tasks auton
   context-aware, intuitive, and actionable Agents & tools.
 </Card>
 
-#### Key Features
+### 🔥 The Ragner Difference
 
-- **Automated Documentation Intelligence**: Effortlessly parses complex data documentations in any format—from modern OpenAPI specs to legacy XML and PDFs.
+#### 1. Documentation Intelligence
 
-- **Instant Tools Generation**: Every API endpoint becomes a powerful, context-aware tool instantly used by developers and AI agents. Say goodbye to wrestling with complex integration processes.
+Upload any protocol documentation (APIs, RPCs, GraphQL, Solidity contracts), and Ragner instantly generates:
 
-- **Natural Language Interface**: Interact with enterprise APIs using plain English commands. RAGNER translates human instructions into precise API calls.
+- **Protocol to Agents:** your API endpoints become callable AI tools and agents.
+- **Natural Language Interface:** Interact with enterprise APIs using plain English commands. RAGNER translates human instructions into precise API calls
 
-- **Universal Compatibility**: Works seamlessly across all major programming languages, protocols, and frameworks, including the Web3 and Blockchain ecosystem.
+<CodeGroup>
 
-- **Intelligent Workflow Orchestration**: Like building with LEGO blocks, leverage composable swarms to create multi-step workflows by combining multiple Ragnar API Agents without writing code.
+```javascript Execution Example
+"Show me real-time sales data from Salesforce" -> "GET /sales/realtime
+```
+
+```python SDK Integration Example:
+#   Turn CoinGecko's API documentation into an Agent
+from ragner.lothebrook import Agent
+
+defi_agent = Agent.from_docurl("https://docs.coingecko.com/v3.0.1/")
+response = defi_agent.query("What’s the current APY for Ethereum staking?")
+print(response)
+# Output: "ETH staking APY is 5.2% via Lido. [Source: CoinGecko, updated 3s ago]"
+```
+
+</CodeGroup>
+
+#### 2.Universal Compatibility
+
+Works seamlessly across all major programming languages, protocols, and frameworks, including the Web3 and Blockchain ecosystem.
+
+**From legacy banks to decentralized networks:**
+
+| **Category**   | **Supported Protocols**                       |
+| -------------- | --------------------------------------------- |
+| **Web2**       | REST, SOAP, GraphQL, WebSockets               |
+| **Web3**       | Ethereum RPC, Solana, Cosmos, Smart Contracts |
+| **Enterprise** | SAP, Salesforce, Oracle DB                    |
+| **Legacy**     | XML, MQTT, FTP                                |
+
+#### 3.Intelligent Workflow Orchestration
+
+Like building with LEGO blocks, Powers composable workflows across Web2, Web3, and enterprise stacks
+
+```mermaid
+graph TD
+    A[User: "Restock warehouse"] --> B[Inventory Agent]
+    B --> C[Supplier API Agent]
+    B --> D[Salesforce CRM Agent]
+    C --> E[Purchase Order Generator]
+    D --> E
+    E --> F[Auto-Execute via ERP]
+```
+
+#### 4.Serverless Deployment
+
+Deploy AI agents without the need for managing servers, ensuring scalability and reduced operational overhead.
 
 ### **Who is it For?**
 

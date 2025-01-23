@@ -1,19 +1,38 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
   "name": "RAGNER",
+  "theme": "venus",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+    "primary": "#343434",
+    "light": "#fff",
+    "dark": "#343434",
+    "ultraLight": "#9a4dff",
+    "ultraDark": "#9a4dff",
+    "background": {
+      "dark": "#181818",
+      "light": "#fafafa"
     }
+  },
+  "seo": {
+    "indexHiddenPages": false
+  },
+  "modeToggle": {
+    "default": "dark",
+    "isHidden": false
+  },
+  "feedback": {
+    "suggestEdit": true,
+    "raiseIssue": true,
+    "thumbsRating": true
+  },
+  "metadata": {
+    "og:description": "Ragner enables you turn your APIs and Smartcontracts into composable AI agents",
+    "og:site_name": "Ragner Docs",
+    "twitter:site": "https://twitter.com/ragner_ai"
   },
   "topbarLinks": [
     {
@@ -66,6 +85,12 @@
         "problem",
         "composable",
         "beyond-apis"
+      ]
+    },
+    {
+      "group": "Usecases",
+      "pages": [
+        "stepguide"
       ]
     }
   ],
