@@ -67,12 +67,6 @@
         "composable",
         "beyond-apis"
       ]
-    },
-    {
-      "group": "Usecases",
-      "pages": [
-        "stepguide"
-      ]
     }
   ],
   "footerSocials": {
