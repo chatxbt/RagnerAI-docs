@@ -55,7 +55,7 @@ Upload any protocol documentation (APIs, RPCs, GraphQL, Smart Contracts), and Ra
 
 ```python SDK Integration Example:
 #   Turn CoinGecko's API documentation into an Agent
-from ragner.lothebrook import Agent
+from ragner import rAgent
 
 defi_agent = Agent.from_docurl("https://docs.coingecko.com/v3.0.1/")
 response = defi_agent.query("What’s the current APY for Ethereum staking?")

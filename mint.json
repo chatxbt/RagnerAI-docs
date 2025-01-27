@@ -88,9 +88,17 @@
       ]
     },
     {
-      "group": "Usecases",
+      "group": "Explore",
       "pages": [
-        "stepguide"
+        "example-usecases",
+        "built with Ragner",
+        "faq"
+      ]
+    },
+    {
+      "group": "Research & Publications",
+      "pages": [
+        "research-overview"
       ]
     }
   ],
