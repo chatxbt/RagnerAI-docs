@@ -44,22 +44,7 @@
     "name": "Website",
     "url": "https://ragner.ai"
   },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
   "anchors": [
-    {
-      "name": "A Short Story",
-      "url": "https://ragner.ai",
-      "icon": "sparkles",
-      "color": {
-        "from": "#FF6F61",
-        "to": "#FF3B3B"
-      }
-    },
     {
       "name": "Our Manifesto",
       "url": "https://chatxbt.com/manifesto",
@@ -81,8 +66,8 @@
       "group": "Get Started",
       "pages": [
         "overview",
-        "introduction",
         "problem",
+        "introduction",
         "composable",
         "beyond-apis"
       ]
@@ -90,9 +75,10 @@
     {
       "group": "Explore",
       "pages": [
-        "example-usecases",
-        "built with Ragner",
-        "faq"
+        "built-with",
+        "example",
+        "faq",
+        "protocol-incentive"
       ]
     },
     {

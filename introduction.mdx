@@ -1,5 +1,5 @@
 ---
-title: "Introduction"
+title: "Learn Ragner"
 description: "Transform APIs into AI Agents."
 ---
 
@@ -50,14 +50,17 @@ Upload any protocol documentation (APIs, RPCs, GraphQL, Smart Contracts), and Ra
 <CodeGroup>
 
 ```javascript Salesforce Execution Example
+// interacting with a ragner salesforce agent
 "Show me real-time sales data from Salesforce API" -> "GET /sales/realtime
+
+// user asks  -> agent makes api call -> returns data
 ```
 
 ```python SDK Integration Example:
 #   Turn CoinGecko's API documentation into an Agent
 from ragner import rAgent
 
-defi_agent = Agent.from_docurl("https://docs.coingecko.com/v3.0.1/")
+defi_agent = rAgent.from_docurl("https://docs.coingecko.com/v3.0.1/")
 response = defi_agent.query("What’s the current APY for Ethereum staking?")
 print(response)
 # Output: "ETH staking APY is 5.2% via Lido. [Source: CoinGecko, updated 3s ago]"

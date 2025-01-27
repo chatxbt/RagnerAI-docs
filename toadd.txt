@@ -1,0 +1,9 @@
+ {
+      "name": "A Short Story",
+      "url": "https://ragner.ai",
+      "icon": "sparkles",
+      "color": {
+        "from": "#FF6F61",
+        "to": "#FF3B3B"
+      }
+    },
